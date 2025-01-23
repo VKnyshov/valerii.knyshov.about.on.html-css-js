@@ -1,0 +1,44 @@
+@media screen and (min-width: 0px) and (max-width: 375px){
+
+    header ul{
+        font-size: 80%;
+    }
+    .names{
+        font-size: 80%;
+    }
+
+    .banner.active {
+        flex-direction: column;
+    }
+
+    .oneBanner{
+        font-size: 100%;
+    }
+
+    .sun{
+        width: 110px;
+        height: 110px;
+        font-size: 250%;
+
+    }
+    .ray{
+        width:80px;
+        height:80px;
+        font-weight: 100;
+    }
+    .contacts img{
+        width: 25px;
+        height: 25px;
+    }
+    .contacts{
+        gap: 5%;
+        justify-content:flex-start;
+        padding-left: 20%;
+    }
+    .contacts a{
+        font-size: 100%;
+    }
+    .footer{
+        font-size: 70%;
+    }
+}

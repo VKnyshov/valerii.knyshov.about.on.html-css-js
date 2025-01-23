@@ -31,6 +31,10 @@ header ul a {
     color: white;
 
 }
+.names{
+    padding-left:2%; 
+    height: 5%;
+}
 /* ------------------------------------------------------------------------------------------------------------------- */
 section {
     padding: 2%;
@@ -52,6 +56,13 @@ section {
     justify-content: center;
     align-items:center;
     gap: 2%;
+}
+.oneBanner{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column; 
+    font-size: 150%;
 }
 .arrow {
     position: absolute;

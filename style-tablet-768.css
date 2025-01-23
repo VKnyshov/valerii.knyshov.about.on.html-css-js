@@ -1,0 +1,12 @@
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+    .banner.active {
+        flex-direction: column;
+    }
+    .contacts{
+        flex-direction: column;
+        gap: 5%;
+        align-items: flex-start;
+        padding: 2% 20%;
+    }
+}
