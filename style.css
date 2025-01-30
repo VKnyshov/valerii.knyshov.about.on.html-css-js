@@ -105,9 +105,7 @@ section {
 }
 .about{
     height: 40%;
-
 }
-
 
 .banner {
     background-size: cover;
@@ -167,6 +165,7 @@ section {
     flex-wrap: wrap;
     margin: 0 auto;
 }
+
 
 @keyframes rotateSun {
     0% {
