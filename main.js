@@ -2,7 +2,9 @@ const translations = {
     uk: {
         "menu-about": "Про себе",
         "menu-skills": "Навички",
+        "example": "Приклади",
         "menu-contacts": "Контакти",
+        
         "about-title": "Про себе",
         "banner1-title": "Базове навчання",
         "banner1-text": "Мене звуть Валерій. Мені 36 років. Навчався у Національному Авіаційному Університеті за спеціальністю “Комп’ютерні системи та мережі”. У 2005 році закінчив навчання і здобув спеціальність “Інженер комп’ютерних систем та мереж”.",
@@ -26,6 +28,7 @@ const translations = {
     en: {
         "menu-about": "About Me",
         "menu-skills": "Skills",
+        "example": "Examples",
         "menu-contacts": "Contacts",
         "about-title": "About Me",
         "banner1-title": "Basic Education",

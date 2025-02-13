@@ -302,3 +302,29 @@ section {
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
+.example {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.exampleTexts{
+    font-size: 150%;
+}
+
+.example img {
+    width: 15vw;
+    height: auto;
+    position: relative;
+    transition: 0.5s linear;
+    padding-bottom: 2%;
+}
+
+.example img:hover {
+    position: relative;
+    border-radius: 0%;
+    transition: 0.5s linear;
+    transform: scale(1.8, 1.8);
+
+}

@@ -20,7 +20,9 @@
             <ul>
                 <li><a href="#about" data-lang-key="menu-about">Про себе</a></li>
                 <li><a href="#skills" data-lang-key="menu-skills">Навички</a></li>
+                <li><a href="#example" data-lang-key="example">Приклади</a></li>
                 <li><a href="#contacts" data-lang-key="menu-contacts">Контакти</a></li>
+
             </ul>
             <div class="language-switch">
                 <button class="lang-btn" data-lang="uk">🇺🇦</button>
@@ -29,8 +31,8 @@
             </div>
         </header>
         <!-- "Про себе" -->
-        <h2 class="names" data-lang-key="about-title">Про себе</h2>
-        <section class="about" id="about">
+        <h2 class="names" data-lang-key="about-title" id="about">Про себе</h2>
+        <section class="about">
             <div id="banners">
                 <div class="banner active" data-index="0">
                     <div class="oneBanner">
@@ -67,8 +69,8 @@
             <div class="arrow right">&#9654;</div>
         </section>
         <!-- "Основні навички" -->
-        <h2 class="names" data-lang-key="skills-title">Навички</h2>
-        <section id="skills" class="skills-section">
+        <h2 class="names" data-lang-key="skills-title" id="skills">Навички</h2>
+        <section class="skills-section">
             <div class="rays-container">
                 <div class="sun" data-lang-key="skills-sun">Навички:</div>
                 <div class="ray"><span data-lang-key="skill-html">HTML</span></div>
@@ -81,9 +83,127 @@
                 <div class="ray"><span data-lang-key="skill-git">Git</span></div>
             </div>
         </section>
+        <!-- "Приклади робіт" -->
+
+        <h2 class="names" id="example">Приклади робіт</h2>
+
+
+        <section style="font-size: 150%;">
+
+
+            <div>
+                <h3> <a href="https://github.com/VKnyshov/Final_Project_HTML.git" style="text-decoration: none;">Перший
+                        HTML-проект</a></h3>
+                <p>Цей проект був зроблений за макетом із Figma. Задачею було реалізувати у повній відповідность з
+                    наданним макетом. При реалізації проекта використовувалися виключно HTML та СSS (без
+                    кросплатформеної верстки)</p>
+                <div class="example">
+                    <img src="/media/examples/html1.png" alt="test work HTML">
+                    <img src="/media/examples/html3.png" alt="test work HTML">
+                </div>
+                <hr>
+            </div>
+            <div>
+                <h3> <a href="https://github.com/VKnyshov/Final_Project_JS.git" style="text-decoration: none;">Перший
+                        JS-проект</a></h3>
+                <p>Цей проект був реалізований згідно наступних задач:</p>
+                <h5>В index.html:</h5>
+                <p>1. Отримати масив об'єктів з endpoint`а https://jsonplaceholder.typicode.com/users</p>
+                <p>2. Вивести id,name всіх user в index.html. Окремий блок для кожного user.</p>
+                <p>3. Додати кожному блоку кнопку/посилання , при кліку на яку відбувається перехід на сторінку
+                    user-details.html, котра має детальну інфорацію про об'єкт на який клікнули</p>
+
+
+                <h5>На сторінці user-details.html:</h5>
+                <p>4. Вивести всю, без виключення, інформацію про об'єкт user на який клікнули</p>
+                <p>5. Додати кнопку "post of current user", при кліку на яку, з'являються title всіх постів поточного
+                    юзера
+                    (для получения постов используйте эндпоинт https://jsonplaceholder.typicode.com/users/USER_ID/posts)
+                </p>
+                <p>6. Каждому посту додати кнопку/посилання, при кліку на яку відбувається перехід на сторінку
+                    post-details.html, котра має детальну інфу про поточний пост.</p>
+                <h5>На сторінці post-details.html:</h5>
+                <p>7. Вивести всю, без виключення, інформацію про об'єкт post на який клікнули. </p>
+                <p>8. Нижчє інформаці про пост, вивести всі коментарі поточного поста (ендпоінт -
+                    https://jsonplaceholder.typicode.com/posts/POST_ID/comments) </p>
+
+                <h5>Стилизація проєкта:</h5>
+                <p>index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією про user.
+                </p>
+                <p>user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по
+                    центру.</p>
+                <p>Блоки з короткою іфною про post - в ряд по 5.</p>
+                <p>post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.</p>
+                <p>Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це
+                    блоки
+                    (дати фон. марджини і тд)</p>
+                <div class="example">
+                    <img src="/media/examples/js1.png" alt="test work JS">
+                    <img src="/media/examples/js2.png" alt="test work JS">
+                    <img src="/media/examples/js3.png" alt="test work JS">
+                    <img src="/media/examples/js4.png" alt="test work JS">
+                </div>
+                <hr>
+            </div>
+
+
+            <div>
+                <h3> <a href="https://github.com/VKnyshov/REACT_Final_project.git" style="text-decoration: none;">Перший React(Next)-проект</a> </h3>
+                <p>Цей проект був реалізований згідно наступних задач:</p>
+
+                <h5>The Movies app </h5>
+                <p>1. mockup download https://cssauthor.com/pinball-responsive-grid-style-blog-psd/</p>
+                <p>2. Movies Database. Register here: https://www.themoviedb.org/documentation/api</p>
+                <p>3. to ﬁnd your api key and token</p>
+                <p> 4. API is here: https://developers.themoviedb.org/3/discover/movie-discover</p>
+                <p>5. Some API info is here: https://www.themoviedb.org/settings/api</p>
+                <p>6. на допомогу з візуалізації компонентів вони є як для реакту так і для ангулара (не за прямими
+                    посиланнями представленими тут, можете не використовувати їх якщо не хочете)</p>
+                <h5>Components:</h5>
+                <p> stars: https://codepen.io/benjaminreid/pen/vNVwPW and
+                    https://www.npmjs.com/package/react-star-ratings </p>
+                <p>badge for genres: https://reactstrap.github.io/?path=/docs/components-badge--badge</p>
+                <h5>7. за структурою проекту:</h5>
+                <p>1) основні дії - getMovies</p>
+
+                <p>2) - getGenres . Відповідно при кліку на жанр - фільми цього жанру. </p>
+                <p>3) Components: Header, MoviesList (renders MoviesListCards), MoviesListCard (contain all movie
+                    information), PosterPreview (movie image), StarsRating, MovieInfo (contains label, description,
+                    badges), GenreBadge, UserInfo (just hardcoded small circle and name). </p>
+                <p>4) Containers - MoviesPage основний.</p>
+                <p>5) Пагінація.</p>
+                <p>6) Друга (наступна) сторінка з розширеним описом фільму (мається на увазі роутинг). Вона повинна
+                    відкриватися, якщо користувач клікнув на картку з фільмом </p>
+                <p>7) Пошук фільмів по назві, або чистині назви. подивитись що самме дає зараз апі, бо вона змінюється
+                </p>
+                <div class="example">
+                    <img src="/media/examples/next1.png" alt="test work Next">
+                    <img src="/media/examples/Next2.png" alt="test work Next">
+                    <img src="/media/examples/Next3.png" alt="test work Next">
+                    <img src="/media/examples/Next4.png" alt="test work Next">
+                </div>
+                <hr>
+            </div>
+
+
+
+            <div></div>
+            <div></div>
+            <div></div>
+
+
+
+
+
+        </section>
+
+
+
         <!-- "Контакти" -->
-        <h2 class="names" data-lang-key="contacts-title">Контакти:</h2>
-        <section id="contacts" class="contacts">
+        <h2 class="names" data-lang-key="contacts-title" id="contacts">Контакти:</h2>
+
+
+        <address class="contacts">
             <!-- Вайбер -->
             <a href="viber://chat?number=%2B380983694293" target="_blank" title="Viber"
                 style="text-decoration: none; color: inherit;">
@@ -100,7 +220,9 @@
             <a href="mailto:valeriy.knyshov@gmail.com" title="Email" style="text-decoration: none; color: inherit;">
                 <img src="/media/gmail.png" alt="Email">valeriy.knyshov@gmail.com
             </a>
-        </section>
+        </address>
+
+
         <footer class="footer">
             <p data-lang-key="footer-copyright">© Copyright by V.Knyshov Ⓒ Sheild. All Rights Reserved.</p>
         </footer>
