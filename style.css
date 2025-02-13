@@ -12,7 +12,7 @@
     --arrow-color: rgb(12, 12, 12);
     --arrow-hover-color: #b69c96;
     --scroll-to-top-icon-color: #fff;
-    --scroll-to-top-hover-color: rgba(255, 255, 255, 0.3); 
+    --scroll-to-top-hover-color: rgba(255, 255, 255, 0.3);
     --theme-toggle-size: 20px;
     --theme-toggle-hover-color: rgba(255, 255, 255, 0.3);
 }
@@ -31,16 +31,16 @@
     --arrow-color: #fff;
     --arrow-hover-color: #555;
     --scroll-to-top-icon-color: #fff;
-    --scroll-to-top-hover-color: rgba(0, 0, 0, 0.3); 
-    --theme-toggle-size: 20px; 
-    --theme-toggle-hover-color: rgba(0, 0, 0, 0.3); 
+    --scroll-to-top-hover-color: rgba(0, 0, 0, 0.3);
+    --theme-toggle-size: 20px;
+    --theme-toggle-hover-color: rgba(0, 0, 0, 0.3);
 }
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-style: italic;   
+    font-style: italic;
     background-color: var(--background-color);
     color: var(--text-color);
 }
@@ -103,7 +103,8 @@ section {
     position: relative;
     background-color: var(--section-background);
 }
-.about{
+
+.about {
     height: 40%;
 }
 
@@ -171,6 +172,7 @@ section {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -200,6 +202,7 @@ section {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(-360deg);
     }
@@ -238,7 +241,7 @@ section {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: transparent; 
+    background-color: transparent;
     color: var(--scroll-to-top-icon-color);
     padding: 10px;
     border-radius: 50%;
@@ -246,11 +249,11 @@ section {
     opacity: 1;
     transition: background-color 0.3s;
     display: block;
-    font-size: 24px; 
+    font-size: 24px;
 }
 
 .scroll-to-top:hover {
-    background-color: var(--scroll-to-top-hover-color); 
+    background-color: var(--scroll-to-top-hover-color);
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
@@ -297,4 +300,5 @@ section {
 .theme-toggle:hover {
     background-color: var(--theme-toggle-hover-color);
 }
+
 /* ---------------------------------------------------------------------------------------------------------------------- */

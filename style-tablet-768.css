@@ -2,7 +2,8 @@
     .banner.active {
         flex-direction: column;
     }
-    .contacts{
+
+    .contacts {
         flex-direction: column;
         gap: 5%;
         align-items: flex-start;
